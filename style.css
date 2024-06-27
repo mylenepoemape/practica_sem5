@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -10,4 +12,75 @@
 --Grey: hsl(0, 0%, 20%);
 --Dark-Grey: hsl(0, 0%, 12%);
 --Off-Black: hsl(0, 0%, 8%);
+}
+
+body {
+    background-color: var(--Off-Black);
+    border-color: bljue;
+    padding: 80px;
+    font-family: 'Inter';
+    height: 100dvh;
+    text-align: center;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+h1 {
+    color: var(--White);
+    font-weight: 700px;
+}
+
+h2 {
+    color: var(--Green);
+    font-weight: 600px;
+}
+
+p {
+    color: var(--White);
+    font-weight: 400px;
+}
+
+.principal {
+    text-align: center;
+    flex-direction: column;
+    background-color: var(--Dark-Grey);
+    font-weight: 400px;
+
+}
+
+#foto {
+    border-color: red;
+    border-radius: 100px
+}
+
+.descripcion {
+    color: var(--Green);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.botones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: .5em;
+   }
+
+.boton {
+    background-color: var(--Grey);
+    color: var(--White);
+    border-radius: 5px;
+    padding: 1em;
+    margin: 0.3em;
+    border-style: none;
+    
 }
